@@ -23,3 +23,5 @@
 #### host element?는 inline display가 기본값. 상하 간격에 주의.
 
 #### 문제. 확장된/조합된 컴포넌트를 정의할 때 커스텀 엘리먼트를 createElement로 생성하면 조합 컴포넌트 스콥의 스타일을 상속할 수 없다. slot은 너무 유연해지는데, class 를 확장해야 하는지
+
+#### aria-selected 등 aria 속성을 스타일링을 위해 상속할 때 커스텀 엘리먼트에서 selected 로 요약해서 작성하지 않고 aria-selected 그대로 사용하는 것이 좋겠다.
